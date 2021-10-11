@@ -15,5 +15,6 @@ int age = Integer.parseInt(br.readLine());
 
 System.out.println("Hello " + name);  
 System.out.println("You are " + age);
+br.close();
   }
 }
